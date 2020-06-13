@@ -84,7 +84,7 @@ bot.on('message', message =>{
                     .setColor('FF0000')
                     .setTitle(':point_right:  Entra in Magnolia Roleplay! :point_left:')
                     .setURL('https://discord.gg/XqUwQqp')
-                    .setThumbnail('https://tenor.com/view/fairytail-fairy-tail-anime-gif-5010750')
+                    .setThumbnail(bot.user.displayAvatarURL())
                     .setDescription(`Se sei un fan di Fairy Tail e del sano RP entra in **Magnolia Roleplay**!!
                                     
                                     Cosa Offriamo:
@@ -105,7 +105,7 @@ bot.on('message', message =>{
                         { name: 'Magnolia Roleplay', value: 'https://discord.gg/XqUwQqp', inline: true },
                         { name: 'Server di supporto', value: 'Still nothing', inline: true },
                         )
-                    .setImage('https://tenor.com/view/fairytail-intro-gif-13002101')
+                    .setImage('https://66.media.tumblr.com/fdc58b082c15c3335b5cb5b56a97aec5/tumblr_nsp67bvXic1t1ygmno1_500.gifv')
                     .setTimestamp()
                     .setFooter('Cordiali saluti | Staff Magnolia Roleplay', bot.user.displayAvatarURL())
                     canale.send(embed)
