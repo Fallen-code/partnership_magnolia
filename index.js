@@ -57,9 +57,10 @@ setInterval(() =>{
                 }
                 else
                 {
+                    channels = ''
                     for(let j=0; j<args.length; j++)
                     {
-                        if(j !== i) channels = args[j]+' '
+                        if(j !== i) channels += args[j]+' '
                     }
                     console.log(`Eliminato 1 canale dalla lista`)
                 }
