@@ -13,7 +13,7 @@ bot.on('ready', () =>{
 })
 
 setInterval(() =>{
-    if(channels !== '')
+    /*if(channels !== '')
     {
         let args = channels.split(' ')
         for(let i=0; i<args.length; i++)
@@ -30,14 +30,32 @@ setInterval(() =>{
                     .setURL('https://discord.gg/XqUwQqp')
                     .setThumbnail(bot.user.displayAvatarURL())
                     .setDescription(`Se sei un fan di Fairy Tail e del sano RP entra in **Magnolia Roleplay**!!
-                                    Cosa Offriamo https://discord.gg/XqUwQqp`)
-                    //canale.send(embed)
+                                    Cosa Offriamo:
+                                    \`Canali originali di Fairy Tail\`
+                                    \`Possibilità di interpretare un pg canon\`
+                                    \`Un sistema di leveling\`
+                                    \`Un sistema di rank per i maghi\`
+                                    \`Staff molto ampio e preparato per coprire ogni esigenza con la massima velocità\`
+                                    \`Eventi intrattenenti e interessanti\`
+                                    \`Un'associazione di Sesso a Sorpresa\`
+                                    \`Un bot personale del server [Work in Progress]\`
+                                    \`Un corso di sviluppo bot completamente gratuito\`
+                                    
+                                    Per qualsiasi tipo di problema con questo bot o richieste di developing trovate il mio server accanto il server Magnolia Roleplay :relaxed:`)
+                    .addFields(
+                        { name: 'Magnolia Roleplay', value: 'https://discord.gg/XqUwQqp', inline: true },
+                        { name: 'Server di supporto', value: 'Still nothing', inline: true },
+                        )
+                    .setImage('https://media.giphy.com/media/108ck8mCRmre1y/giphy.gif')
+                    .setTimestamp()
+                    .setFooter('Cordiali saluti | Staff Magnolia Roleplay', bot.user.displayAvatarURL())
+                    canale.send(embed)
                     canale.send('https://discord.gg/XqUwQqp')
                 }
                 else console.log('errore per il canale '+args[i])
             }
         }
-    }
+    }*/
 }, 2000)
 
 bot.on('message', message =>{
@@ -46,5 +64,49 @@ bot.on('message', message =>{
     {
         let channel = message.mentions.channels.first()
         channels += channel.id+' '
+    }
+
+    if(message.content === 'send')
+    {
+        let args = channels.split(' ')
+        for(let i=0; i<args.length; i++)
+        {
+            if(args[i] !== '')
+            {
+                let canale = bot.channels.cache.get(args[i])
+                if(canale)
+                {
+                    let embed = new discord.MessageEmbed()
+                    .setAuthor('Magnolia roleplay | Developer bot: lǝƃuɐ uǝllɐɟ#9672',bot.user.displayAvatarURL())
+                    .setColor('FF0000')
+                    .setTitle(':point_right:  Entra in Magnolia Roleplay! :point_left:')
+                    .setURL('https://discord.gg/XqUwQqp')
+                    .setThumbnail(bot.user.displayAvatarURL())
+                    .setDescription(`Se sei un fan di Fairy Tail e del sano RP entra in **Magnolia Roleplay**!!
+                                    Cosa Offriamo:
+                                    \`Canali originali di Fairy Tail\`
+                                    \`Possibilità di interpretare un pg canon\`
+                                    \`Un sistema di leveling\`
+                                    \`Un sistema di rank per i maghi\`
+                                    \`Staff molto ampio e preparato per coprire ogni esigenza con la massima velocità\`
+                                    \`Eventi intrattenenti e interessanti\`
+                                    \`Un'associazione di Sesso a Sorpresa\`
+                                    \`Un bot personale del server [Work in Progress]\`
+                                    \`Un corso di sviluppo bot completamente gratuito\`
+                                    
+                                    Per qualsiasi tipo di problema con questo bot o richieste di developing trovate il mio server accanto il server Magnolia Roleplay :relaxed:`)
+                    .addFields(
+                        { name: 'Magnolia Roleplay', value: 'https://discord.gg/XqUwQqp', inline: true },
+                        { name: 'Server di supporto', value: 'Still nothing', inline: true },
+                        )
+                    .setImage('https://media.giphy.com/media/108ck8mCRmre1y/giphy.gif')
+                    .setTimestamp()
+                    .setFooter('Cordiali saluti | Staff Magnolia Roleplay', bot.user.displayAvatarURL())
+                    canale.send(embed)
+                    canale.send('https://discord.gg/XqUwQqp')
+                }
+                else console.log('errore per il canale '+args[i])
+            }
+        }
     }
 })
