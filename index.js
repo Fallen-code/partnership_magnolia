@@ -13,7 +13,7 @@ bot.on('ready', () =>{
 })
 
 setInterval(() =>{
-    /*if(channels !== '')
+    if(channels !== '')
     {
        let args = channels.split(' ')
         for(let i=0; i<args.length; i++)
@@ -58,7 +58,7 @@ setInterval(() =>{
                 else console.log('errore per il canale '+args[i])
             }
         }
-    }*/
+    }
 }, 5000)
 
 bot.on('message', message =>{
