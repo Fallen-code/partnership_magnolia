@@ -59,13 +59,14 @@ setInterval(() =>{
             }
         }
     }*/
-}, 2000)
+}, 5000)
 
 bot.on('message', message =>{
     if(message.author.bot) return;
     if(message.content.toLowerCase().startsWith(PREFIX+'add') && message.author.id === CREATORE)
     {
         let channel = message.mentions.channels.first()
-        channels += channel.id+' '
+        if(channel) channels += channel.id+' '
+        else message.channel.send('Canale non valido')
     }
 })
