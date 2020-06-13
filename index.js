@@ -61,7 +61,7 @@ setInterval(() =>{
                     {
                         if(j !== i) channels = args[j]+' '
                     }
-                    console.log(`Errore per il canale ${canale.id}. Eliminato dalla lista`)
+                    console.log(`Eliminato 1 canale dalla lista`)
                 }
             }
         }
