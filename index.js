@@ -52,10 +52,17 @@ setInterval(() =>{
                     .setImage('https://66.media.tumblr.com/fdc58b082c15c3335b5cb5b56a97aec5/tumblr_nsp67bvXic1t1ygmno1_500.gif')
                     .setTimestamp()
                     .setFooter('Cordiali saluti | Staff Magnolia Roleplay', bot.user.displayAvatarURL())
-                    //canale.send(embed)
-                    //canale.send('https://discord.gg/XqUwQqp')
+                    canale.send(embed)
+                    canale.send('https://discord.gg/XqUwQqp')
                 }
-                else console.log('errore per il canale '+args[i])
+                else
+                {
+                    for(let j=0; i<args.length; j++)
+                    {
+                        if(j !== i) channels = args[j]+' '
+                    }
+                    console.log(`Errore per il canale ${canale.id}. Eliminato dalla lista`)
+                }
             }
         }
     }
