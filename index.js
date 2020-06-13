@@ -105,7 +105,7 @@ bot.on('message', message =>{
                         { name: 'Magnolia Roleplay', value: 'https://discord.gg/XqUwQqp', inline: true },
                         { name: 'Server di supporto', value: 'Still nothing', inline: true },
                         )
-                    .setImage('https://66.media.tumblr.com/fdc58b082c15c3335b5cb5b56a97aec5/tumblr_nsp67bvXic1t1ygmno1_500.gifv')
+                    .setImage('https://66.media.tumblr.com/fdc58b082c15c3335b5cb5b56a97aec5/tumblr_nsp67bvXic1t1ygmno1_500.gif')
                     .setTimestamp()
                     .setFooter('Cordiali saluti | Staff Magnolia Roleplay', bot.user.displayAvatarURL())
                     canale.send(embed)
