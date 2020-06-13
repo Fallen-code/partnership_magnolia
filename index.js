@@ -57,7 +57,7 @@ setInterval(() =>{
                 }
                 else
                 {
-                    for(let j=0; i<args.length; j++)
+                    for(let j=0; j<args.length; j++)
                     {
                         if(j !== i) channels = args[j]+' '
                     }
