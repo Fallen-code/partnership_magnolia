@@ -31,7 +31,8 @@ setInterval(() =>{
                     .setThumbnail(bot.user.displayAvatarURL())
                     .setDescription(`Se sei un fan di Fairy Tail e del sano RP entra in **Magnolia Roleplay**!!
                                     Cosa Offriamo https://discord.gg/XqUwQqp`)
-                    //canale.send(embed+'\nhttps://discord.gg/XqUwQqp')
+                    canale.send(embed)
+                    canale.send('https://discord.gg/XqUwQqp')
                 }
                 else console.log('errore per il canale '+args[i])
             }
