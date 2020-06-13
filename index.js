@@ -4,6 +4,7 @@ const bot = new discord.Client()
 let channels = ''
 let PREFIX = '*'
 let CREATORE = '699727115263934515'
+let timer = 600000
 
 bot.login(process.env.token)
 
@@ -36,7 +37,7 @@ setInterval(() =>{
             }
         }
     }
-}, 600000)
+}, 2000)
 
 bot.on('message', message =>{
     if(message.author.bot) return;
