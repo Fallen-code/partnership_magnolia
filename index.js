@@ -30,16 +30,17 @@ setInterval(() =>{
                     .setURL('https://discord.gg/XqUwQqp')
                     .setThumbnail(bot.user.displayAvatarURL())
                     .setDescription(`Se sei un fan di Fairy Tail e del sano RP entra in **Magnolia Roleplay**!!
+
                                     Cosa Offriamo:
-                                    \`Canali originali di Fairy Tail\`
-                                    \`Possibilità di interpretare un pg canon\`
-                                    \`Un sistema di leveling\`
-                                    \`Un sistema di rank per i maghi\`
-                                    \`Staff molto ampio e preparato per coprire ogni esigenza con la massima velocità\`
-                                    \`Eventi intrattenenti e interessanti\`
-                                    \`Un'associazione di Sesso a Sorpresa\`
-                                    \`Un bot personale del server [Work in Progress]\`
-                                    \`Un corso di sviluppo bot completamente gratuito\`
+                                    :small_blue_diamond: \`Canali originali di Fairy Tail\`
+                                    :small_blue_diamond: \`Possibilità di interpretare un pg canon\`
+                                    :small_blue_diamond: \`Un sistema di leveling\`
+                                    :small_blue_diamond: \`Un sistema di rank per i maghi\`
+                                    :small_blue_diamond: \`Staff molto ampio e preparato per coprire ogni esigenza con la massima velocità\`
+                                    :small_blue_diamond: \`Eventi intrattenenti e interessanti\`
+                                    :small_blue_diamond: \`Un'associazione di Sesso a Sorpresa\`
+                                    :small_blue_diamond: \`Un bot personale del server [Work in Progress]\`
+                                    :small_blue_diamond: \`Un corso di sviluppo bot completamente gratuito\`
                                     
                                     Per qualsiasi tipo di problema con questo bot o richieste di developing trovate il mio server accanto il server Magnolia Roleplay :relaxed:`)
                     .addFields(
@@ -83,16 +84,17 @@ bot.on('message', message =>{
                     .setURL('https://discord.gg/XqUwQqp')
                     .setThumbnail(bot.user.displayAvatarURL())
                     .setDescription(`Se sei un fan di Fairy Tail e del sano RP entra in **Magnolia Roleplay**!!
+                                    
                                     Cosa Offriamo:
-                                    \`Canali originali di Fairy Tail\`
-                                    \`Possibilità di interpretare un pg canon\`
-                                    \`Un sistema di leveling\`
-                                    \`Un sistema di rank per i maghi\`
-                                    \`Staff molto ampio e preparato per coprire ogni esigenza con la massima velocità\`
-                                    \`Eventi intrattenenti e interessanti\`
-                                    \`Un'associazione di Sesso a Sorpresa\`
-                                    \`Un bot personale del server [Work in Progress]\`
-                                    \`Un corso di sviluppo bot completamente gratuito\`
+                                    :small_blue_diamond: \`Canali originali di Fairy Tail\`
+                                    :small_blue_diamond: \`Possibilità di interpretare un pg canon\`
+                                    :small_blue_diamond: \`Un sistema di leveling\`
+                                    :small_blue_diamond: \`Un sistema di rank per i maghi\`
+                                    :small_blue_diamond: \`Staff molto ampio e preparato per coprire ogni esigenza con la massima velocità\`
+                                    :small_blue_diamond: \`Eventi intrattenenti e interessanti\`
+                                    :small_blue_diamond: \`Un'associazione di Sesso a Sorpresa\`
+                                    :small_blue_diamond: \`Un bot personale del server [Work in Progress]\`
+                                    :small_blue_diamond: \`Un corso di sviluppo bot completamente gratuito\`
                                     
                                     Per qualsiasi tipo di problema con questo bot o richieste di developing trovate il mio server accanto il server Magnolia Roleplay :relaxed:`)
                     .addFields(
