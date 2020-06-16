@@ -42,7 +42,6 @@ setInterval(() =>{
                                     :small_blue_diamond: \`Eventi intrattenenti e interessanti\`
                                     :small_blue_diamond: \`Un'associazione di Sesso a Sorpresa\`
                                     :small_blue_diamond: \`Un bot personale del server [Work in Progress]\`
-                                    :small_blue_diamond: \`Un corso di sviluppo bot completamente gratuito\`
                                     
                                     Per qualsiasi tipo di problema con questo bot o richieste di developing trovate il mio server accanto il server Magnolia Roleplay :relaxed:`)
                     .addFields(
